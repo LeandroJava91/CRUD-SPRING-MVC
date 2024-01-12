@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Saludo</title>
+</head>
+<body>
+
+<h1>¡Hola, <span th:text="${nombre}"/> <span th:text="${apellido}"/>!</h1>
+<br>
+<a th:href="@{/formulario}">Volver al formulario</a>
+
+</body>
+</html>
